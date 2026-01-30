@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background: radial-gradient(circle at center,rgb(106, 213, 125), rgb(26, 136, 92), rgb(35, 93, 62));
+    color: floralwhite;
+}
+
+.header input {
+    padding: 30px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: bisque;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: radial-gradient(circle at center,rgb(102, 119, 151), rgb(103, 176, 210), rgb(42, 83, 99));
+    margin-top: 5px;   
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 20px;
+    padding: 40px;   
+}
+
+.product-card {
+    background: radial-gradient(circle at center,rgb(96, 95, 103), rgb(86, 84, 94), rgb(66, 66, 68));
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(gray);
+    box-shadow: 2px 2px 2px 2px rgb(100, 98, 98);   
+}
+
+.product-card img {
+    width:70%;
+    height: 350px;
+    object-fit: contain;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    background-color: rgb(173, 228, 71);
+    color: rgb(5, 5, 5);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 10px rgb(92, 148, 59);
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
